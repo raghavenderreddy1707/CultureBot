@@ -4,8 +4,8 @@ from pydantic import BaseModel
 from typing import List, Optional
 import os
 from dotenv import load_dotenv
-from ai_engine import CultureAI
-from content_db import CulturalDatabase
+from .ai_engine import CultureAI
+from .content_db import CulturalDatabase
 
 # Load environment variables
 load_dotenv()
