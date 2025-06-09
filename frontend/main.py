@@ -53,6 +53,7 @@ st.markdown("""
     
     .bot-message {
         background: #f8f9fa;
+        color:#333
         border-left: 4px solid #667eea;
         margin-right: 2rem;
     }
