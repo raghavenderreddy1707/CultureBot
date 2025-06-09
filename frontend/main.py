@@ -106,7 +106,7 @@ with st.sidebar:
     st.markdown("### 📊 Quick Stats")
     try:
         response = requests.get(f"{BACKEND_URL}/health", timeout=5)
-        if response.status_code == 100:
+        if response.status_code == 200:
             st.success("🟢 Backend Online")
         else:
             st.error("🔴 Backend Offline")
