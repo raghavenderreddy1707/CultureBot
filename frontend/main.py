@@ -53,13 +53,14 @@ st.markdown("""
     
     .bot-message {
         background: #f8f9fa;
-        color:#333
+        color:#333;
         border-left: 4px solid #667eea;
         margin-right: 2rem;
     }
     
     .fact-card {
-        background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+        background: linear-gradient(135deg, #ffd3a5 0%, #fd6585 100%);
+        color:#212121;
         padding: 1.5rem;
         border-radius: 10px;
         margin: 1rem 0;
