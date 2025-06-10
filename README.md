@@ -1,80 +1,123 @@
----
-title: CultureBot
-emoji: 🌍
-colorFrom: blue
-colorTo: green
-sdk: streamlit
-sdk_version: 1.45.1
-app_file: app.py
-pinned: false
-license: mit
+##README.md
 ---
 
-# CultureBot 🌍
+## 👥 1. Team Information
 
-CultureBot is an AI-powered Streamlit application that helps users learn about world cultures through interactive conversations and curated cultural facts.
+* Team Name: CultureCoders
 
-## Features
+### 🧑‍💻 Team Members & Roles
 
-- **AI-Powered Chat**: Ask questions about any culture or country and get intelligent responses
-- **Cultural Facts Database**: Browse curated cultural insights from around the world
-- **Interactive Interface**: Beautiful, responsive design with multiple pages
-- **Global Coverage**: Information about customs, traditions, and practices from various countries
+| Name              | Role                            | Contributions                      |
+| ----------------- | ------------------------------- | ---------------------------------- |
+| Raghavender Reddy | Project Lead & AI Engineer      | Managed project and added AI       |
+| Deekshith Mamidi  | Frontend Developer              | Built the UI with Streamlit        |
+| Sanjay Reddy      | Backend Developer               | Handled APIs and data flow         |
+| PRANAV KUMAR      | Data Scientist / NLP Specialist | Improved AI responses with data    |
+| Venkateswar Rao   | Tester & Docs Lead              | Tested app and wrote documentation |
 
-## How to Use
+---
 
-1. **Home Page**: Get an overview of CultureBot's features
-2. **Chat**: Interact with the AI assistant about cultural topics
-3. **Cultural Facts**: Browse facts by country or category
-4. **About**: Learn more about the application and its mission
+## 💡 2. Application Overview
 
-## Setup for Local Development
+* Application Name: CultureBot – AI Travel & Culture Educator
 
-1. Clone this repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Set up your OpenAI API key:
-   - Create a `.streamlit/secrets.toml` file
-   - Add your API key: `openai_api_key = "your-api-key-here"`
-4. Run the app: `streamlit run app.py`
+### 🎯 Use Case & Problem Solved
 
-## Deployment on Hugging Face Spaces
+Travelers and students often struggle to understand diverse cultures, languages, and etiquette when visiting new countries. CultureBot offers instant cultural insights, greetings, do’s and don’ts, festivals, and fun facts about any country or region, improving cultural awareness and travel experience.
 
-This application is optimized for deployment on Hugging Face Spaces. To deploy:
+### ⚙ Key Features
 
-1. Create a new Space on Hugging Face
-2. Choose Streamlit as the SDK
-3. Upload the files from this repository
-4. Add your OpenAI API key in the Space settings under "Repository secrets"
-   - Key: `OPENAI_API_KEY`
-   - Value: Your OpenAI API key
+* Country & region-based culture insights
+* AI-generated local greetings and etiquette tips
+* Festivals and traditional food suggestions
+* Fun facts and historical overviews
 
-## Technologies Used
+### 💬 Motivation
 
-- **Streamlit**: Web application framework
-- **OpenAI GPT-3.5**: AI language model for intelligent responses
-- **Python**: Programming language
-- **Hugging Face Spaces**: Deployment platform
+We want to build an app that promotes cultural understanding in a globalized world. Whether for travelers, students, or curious minds, CultureBot helps users become respectful and informed global citizens.
 
-## Cultural Coverage
+---
 
-The application includes cultural facts and insights from:
-- Japan
-- India
-- Brazil
-- Germany
-- China
-- France
-- South Korea
-- Mexico
-- Egypt
-- Russia
-- Thailand
-- Italy
+## 🤖 3. AI Integration Details
 
-## Contributing
+### 🔍 AI Model Used
 
-We welcome contributions to expand our cultural database and improve the application. Please feel free to submit issues or pull requests.
+* Model: GPT-3.5 Turbo (via OpenAI API)
+* Purpose: Provides cultural knowledge, greetings, customs, and etiquette suggestions in friendly language
 
-## License
+### 🔗 Model Link
 
-This project is licensed under the MIT License.
+Coming Soon
+
+### 🛠 Prompt Engineering
+
+Prompt starts with:
+
+> "You are a cultural guide for travelers and learners. Given a country or region, provide its cultural etiquette, traditional greetings, popular festivals, and one interesting fun fact. Be friendly, short, and educational."
+
+---
+
+## 🏗 4. Technical Architecture & Development
+
+### 🪰 Tech Stack
+
+* Frontend: Streamlit
+* Backend: Python + OpenAI API
+* Libraries: streamlit, openai, requests, pycountry, emoji
+
+### 🧱 Challenges & Solutions
+
+| Challenge                    | Solution                                |
+| ---------------------------- | --------------------------------------- |
+| Getting region-specific data | Will Use AI to generate geo-specific info   |
+| UI/UX clarity for travelers  | Will Design simple textbox and dropdown UI |
+| Avoiding long responses      | Will Add prompt for concise answers   |
+
+### ⚖ License
+
+* MIT License — open for use and contribution
+
+---
+
+## 👨‍👩‍👧 5. User Testing & Feedback
+
+### 🔍 Methodology
+
+Will Test with 10 users via mobile and desktop.
+
+### 📝 Feedback Summary
+
+Coming Soon
+---
+
+## 🚀 6. Roadmap & Adoption Plan
+
+### 🗓 Completion Plan
+
+| Date    | Task                            |
+| ------- | ------------------------------- |
+| June 9  | Finalize UI + AI integration    |
+| June 10 | Testing & feedback round        |
+| June 11 | Hugging Face deployment + Video |
+
+---
+
+### 📈 User Growth Plan
+
+* Share on: Reddit (r/Travel, r/CasualConversation), LinkedIn, Instagram Reels
+* Submit to: Streamlit Gallery, Swecha Open Source Showcases
+* Promote via: Video walkthroughs, short form content (YouTube Shorts)
+* Collect feedback: Google Form in sidebar
+
+---
+
+## ✅ Submission Links
+
+
+* [ ] Code Repo:
+* [ ] Live App:To be built
+* [ ] Demo Video: To be uploaded
+
+---
+
+> ⚠ Disclaimer: CultureBot is an educational tool. It does not guarantee 100% accurate or official cultural protocols. Always verify with local sources when traveling.
